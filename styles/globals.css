@@ -63,14 +63,14 @@ Avoiding BEM naming for the same reason */
 }
 .input-symbol-dollar:before {
   position: absolute;
-  top: 21px;
+  top: 21.5px;
   content: "$";
   left: 11px;
   color: rgb(123, 135, 149);
 }
 .input-symbol-user:before {
   position: absolute;
-  top: 17px;
+  top: 17.5px;
   content: "👩‍💼";
   left: 6px;
 }

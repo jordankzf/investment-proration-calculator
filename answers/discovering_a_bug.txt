@@ -1,0 +1,49 @@
+Prompt
+~~~~~~
+
+Suppose we discover a bug with our algorithm and investors for two deals had incorrect
+allocations. This means that some of the investors ended up investing more than they were allowed to
+while others invested less than they were allowed to. One of deals happened two years ago and the
+other one happened two weeks ago. Please describe, in detail, how would you go about correcting this
+issue and how would you communicate this to the affected customers.
+
+Response
+~~~~~~~~
+
+First of all, since the issue is still left unfixed, all new deals should be manually double-checked
+as a temporary measure to prevent further errors. Seeing that this bug has occurred only twice so far,
+completely taking down the site is unnecessary. Business continuity should be maintained whenever possible.
+
+To resolve this issue, I would first study the root cause and figure out what went wrong with
+the algorithm. Peeking at the affected code may lead to some insight, followed by manual QA testing
+and debugging with breakpoints. Once I have isolated the issue, I would share my findings in a Slack channel
+and discuss possible solutions with my colleagues. While this bug should be addressed as soon as possible,
+care must be taken to ensure that the proposed solution works as intended and does not introduce any further bugs.
+
+These questions come to mind:
+
+1. How big was the miscalculation? Is it a mere decimal place precision error?  For large investments
+in millions, a few hundred or thousand dollars are negligible. (In reference to the prorated allocation,
+a customer should never be shortchanged on actual money paid)
+
+2. Were the numbers presented to the customers incorrectly correct? I.e., if they were supposed to be allocated $10,
+but were allocated $15 instead. Did they see $15, pay $15, and end up receiving $15 worth of shares/ownership?
+
+3. Is there a disclaimer in AngelList's T&C relevant to this situation? Are we legally liable and subject to litigation?
+
+4. Do we have liability insurance? Is it still valid? Can it cover the full amount? If not, is it in our budget to compensate affected customers?
+
+In the case of the 2 year old instance:
+
+Assuming that the miscalculation was small, the customer received the correct amount they paid for, and that our
+T&C has a relevant disclaimer, I would send them an email sharing our discovery of the error, apologize for the
+mistake, and ask them to reach out if they would like to discuss it further. This way, if they are not disgruntled
+to begin with, no further action is necessary.
+
+For the 2 week old instance, I have an additional question:
+
+1. Has the deal been finalized? Can it still be adjusted to correct the error?
+
+If the amount involved is small, an email or a phone call may be adequate to communicate the error to the affected customers.
+If it is large, an in-person visit may be more appropriate. I would try to make it right by adjusting the deal if it is still not finalized.
+Otherwise, I would compensate the affected customers via a claim from our liability insurance.

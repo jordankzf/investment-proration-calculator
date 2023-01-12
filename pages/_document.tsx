@@ -9,7 +9,7 @@ export default function Document() {
         <link rel="shortcut icon" href="/favicon.ico" />
         <style>
           @import
-          url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+          url(&apos;https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap&apos;);
         </style>
       </Head>
       <body>

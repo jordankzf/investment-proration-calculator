@@ -1,0 +1,54 @@
+Prompt
+~~~~~~
+
+An angry investor sent us a note about how they keep getting squeezed down to $25K per deal even
+though their requested amount is $100K. Underneath the hood, this was because there's limited
+allocation (low supply) and a high volume of investors looking to invest (high demand). How should
+we communicate this to an investor in a way that minimizes the damage to our relationship with
+the investor?
+
+In addition, can you think of a better way we could change the proration basis logic so that
+this could potentially happen less often?
+
+Response
+~~~~~~~~
+
+Transparency is the best way to approach this. It looks like AngelList has help articles pertaining
+to proration for founders but not investors: https://help.venture.angel.co/hc/en-us/search?utf8=%E2%9C%93&query=prorate
+
+I would suggest publishing a blog post that explains how the algorithm works in detail, and why
+it is necessary to ensure fairness to all investors. Explain how the proration benefits the
+investor by allowing them to invest in otherwise oversubscribed startups. The article could
+include tips on how an investor could increase their allocated amount. For starters, they could
+invest in startups with higher target amounts or choose startups that are less oversubscribed.
+Not only will investors have the opportunity to invest more this way, this will also bump up their
+historical average amount, which in turn will increase their future allocations as well. Futhermore,
+we could suggest that the investor diversify their investments by investing in more startups.
+Diversification lowers risk and prevents oversubscription to a single startup. It will also give
+exposure and funding to lesser known or less popular startups.
+
+The most important thing is to never assign blame, not to ourselves, the investor, or the startups.
+The language used should be pleasant in tone, and professional. Avoid patronizing customers, do
+not make it seem obvious why proration is needed, explain it in a way that's simple to understand
+without making the customer feel ignorant. Empathize with the customer and validate their frustration.
+
+
+At its core, the proration logic depends on the following variables:
+
+1. How much allocation is available? - It's not as simple as increasing the available allocation,
+as this may lead to overdilution of shares. Ultimately, this is the startup's decision and is difficult to influence.
+
+2. How much does an investor want to invest? - We could limit the requested amount. This will avoid
+disappointing the investor.
+
+3. How much on average has the investor invested in the past? - How is this calculated? The weightage could be
+altered to more accurately gauge an investor's appetite. I.e. only consider the last X investments, or cut off
+investments after Y duration. Adding a decay could also further surpress an investor's average to prevent a
+monopoly.
+
+Ultimately, the proration logic is fair by default. Not much can be done mathematically. It is more practical
+to influence the human behavior of our customers. From a business standpoint, we want investors to invest
+as much as possible, especially the whales with the most funds. By handicapping the top investors, although
+this may make the smaller investors happier because they won't be squeezed down as much, it might hurt our
+biggest customers. In my opinion, the ideal solution is to direct investors - both big and small - to other less
+saturated startups.
